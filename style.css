@@ -1,0 +1,126 @@
+ body {
+       /* background: #92bde7;**/
+        color: #485e74;
+        line-height: 1.6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+       margin-top: 0;
+       margin-left: 0;
+       
+   background-color:#92bde7;
+    }
+ 
+.allbody{
+    background-color:#92bde7;
+    
+    height:700px;
+    padding-left: 1%;
+    padding-top: 3%;
+    padding-right: 7%;
+    padding-bottom: 10%;
+  
+}
+/* div{display: block;} */
+.titre{
+    text-align: left;
+   /* display: block;*/
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    float: top;
+    left: 5%;
+  }
+#listetrack{float: right;
+position:absolute;
+top:100px;
+left: 70%;
+}
+strong{
+    color: white;
+}
+/*div.allbody{box-shadow: 0 0 200px 0 #485e74;}*/
+.partigauche { /*qui contien image de cloune */
+    background-color:#c9e6ff; 
+    width: 31%;
+    height: 180%;
+   float: left;
+ /*  position: relative;*/
+   left:5%;
+   padding-left: 1%;
+   padding-right: 1%;
+}
+.partidroite{
+    background-color: #f9feff;
+   /* padding:1em;*/
+    padding-bottom: 10%;
+    padding-left: 2%;
+    width: 65%;
+    height: 90%;
+    float: right;
+   /* position: relative;*/
+    right: 5%;
+
+}
+h3{
+    margin-left: 3%;
+}
+div.ombre{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    height: 100%;
+    width: 90%;
+    position: relative;
+    float: left; 
+    left: 10%;  
+    /*margin-bottom: 10%;*/
+    overflow: hidden;
+   
+    
+}
+img{
+    position: relative;
+    left: 10%;
+    width:270px;
+    height: 250px;
+    
+}
+button{
+    width: 90%;
+    height: 40px;
+    background-color: #c9e6ff;
+    text-transform: uppercase;
+    border: 0;
+    margin-left: 3%;
+    
+}
+button:hover{ /*si on passe sur le button avec la sourie */
+    background-color: #92bde7;
+    transition: background-color 3000ms ease-in;
+    color: white;
+}
+button:focus{ /*si on appui sur le button */
+    background: #92bde7;
+    color: #fff;
+    outline: 0;
+    transition: background-color 3000ms ease-out;
+}
+input{
+    width:40%;
+    height: 15px; 
+    padding: 1.6%;
+    margin: 3%;
+    border: 1px solid #c9e6ff
+}
+label{margin: 5%;}
+#msgtxt{
+    width:90.6%;
+    height:5%;
+    /*padding: 1em;*/
+    margin:3%;
+   /* border: 1px solid #c9e6ff;*/
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    /*padding: 10px 10px 10px 10px;*/
+}/*
+

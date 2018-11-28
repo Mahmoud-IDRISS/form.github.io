@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire </title>
+</head>
+<body>
+    <div class="allbody">
+         <div class="titre"><h1 > <strong>ADA</strong> Students feedback </h1></div> 
+        <div class="ombre">
+         <div class="partigauche">
+            <img src="wewantyou.jpg" alt="image we want you ">
+            <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+           
+            <p>Fill this form if you:</p>
+            <ul>
+                    <li> - Find an error in the content or in the quizzes</li>
+                    <li> - Have a feedback about instructors or the experience</li>
+                    <li> - Have a suggestion on how to make the course better</li>
+                  </ul>
+        </div>
+        <div class="partidroite">
+            <h3>Email Us</h3>
+            <form id="f1" name="formualire">
+                
+                <p>
+                    <label for="fnom">Name</label><br>
+                    <input type="text" name="nom" >
+                </p>
+                <p id="listetrack">     
+                    <label for="flistetrack">Track</label>
+                    <select name="listetrack" >
+                        <option value="Al">AI</option>
+                        <option value="web">Web</option>
+                        <option value="game">Game</option>
+                    </select>
+                </p>
+                <p> 
+                    <label id="fslidename">Slide name (or object) </label><br>
+                    <input type="text" name="slidename" required>
+                </p>
+                
+                <p>
+                    <label for="msg">message</label><br>
+                    <textarea name="txt" id="msgtxt" cols="30" rows="10">
+
+                    </textarea>
+
+                </p>
+                <p>
+                    <button type="submit" >SUBMIT</button>
+                </p>
+            </form>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
